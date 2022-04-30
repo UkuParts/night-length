@@ -6,6 +6,8 @@ Dokumendi struktuur:
 5. Piirangud ja puudujäägid
 6. Tööprotsess
 
+--
+
 1. Ülevaade
 Antud rakendus võimaldab kasutajal leida öö pikkuse teatud asukoha ja kuupäeva jaoks. Lisaks, sisaldab rakendus interaktiivset kaarti, mille peal on
 näidatud hetke öine ala. Kasutajal on võimalik sisestada koordinaadid käsitsi või kaardi abil.
