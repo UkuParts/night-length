@@ -1,0 +1,20 @@
+{
+  "name": "night-length",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.6.7"
+  },
+  "dependencies": {
+    "any-date-parser": "^1.5.2",
+    "date-diff": "^1.0.2",
+    "geo-coordinates-parser": "^1.4.4",
+    "ol": "latest",
+    "ol-ext": "^3.2.24",
+    "sunrise-sunset-api": "^0.2.1"
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="et">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>öö pikkus</title>
+	<script type="module" src="./map.js"></script>
+  </head>
+  
+  <body>
+	<div class="row">
+		<div class="column">
+			<label for='laius'>Sisestage laiuskraad:</label>
+			<input type='text' id='lat' value="59° 26' 14&quot N">
+			<br>
+			
+			<label for='pikkus'>Sisestage pikkuskraad:</label>
+			<input type='text' id='lon' value="24° 44' 43&quot E">
+			<br>
+			
+			<label for='kuupäev'>Sisestage kuupäev</label>
+			<input type='text' id='date'>
+			<script>
+			<!-- Seab kuupäeva välja väärtuseks tänase kuupäeva.
+			const date = new Date();
+			document.getElementById("date").value = date.toLocaleDateString("et-EE");
+			</script>
+			<br>
+			
+			<button type="button" id="find">Leia</button>
+			<br>
+			<br>
+			
+			<table>
+				<tr>
+					<th>Öö pikkus</th>
+					<th id='night_length'></th>
+				</tr>
+				<tr>
+					<th>Päikseloojang</th>
+					<th id='sunset'></th>
+				</tr>
+				<tr>
+					<th>Päiksetõus</th>
+					<th id='sunrise'></th>
+				</tr>
+			</table>
+			<br>
+			
+			<div>kasutatav API: https://sunrise-sunset.org/api</div>
+		</div>
+		
+		
+		<div class="column">
+			<div id="map" class="map"></div>
+		</div>
+	</div>
+  </body>
+  
+</html>

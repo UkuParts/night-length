@@ -1,0 +1,29 @@
+@import "node_modules/ol/ol.css";
+
+body {
+  background-color: #FFFFFC;
+  margin-top: 20px;
+}
+
+#map {
+  height: 400px;
+  width: 800px;
+}
+
+.column {
+  flex: 50%;
+}
+
+.row {
+  display: flex;
+}
+
+table {
+	border: 1px solid;
+	table-layout: fixed;
+	width: 300px;
+}
+
+th {
+	border: 1px solid;
+}
